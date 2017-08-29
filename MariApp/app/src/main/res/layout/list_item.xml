@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:id="@+id/cardView">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:orientation="vertical"
+            android:id="@+id/listItem"
+            android:padding="4dp">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@color/gray"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toRightOf="@+id/imageViewLayout"
+                android:layout_marginLeft="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="0dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewLayout"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="12dp" />
+
+            <TextView
+                android:id="@+id/parentesco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/data_nascimento"
+                android:layout_marginRight="8dp"
+                android:layout_toEndOf="@+id/imageViewLayout"
+                android:layout_toRightOf="@+id/imageViewLayout"
+                android:paddingEnd="0dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="0dp"
+                android:paddingStart="16dp"
+                android:text="parentesco"
+                app:layout_constraintLeft_toLeftOf="@+id/data_nascimento"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/data_nascimento"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/data_nascimento"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageViewLayout"
+                android:layout_toEndOf="@+id/imageViewLayout"
+                android:layout_toRightOf="@+id/imageViewLayout"
+                android:paddingEnd="0dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="0dp"
+                android:paddingStart="16dp"
+                android:text="data de nascimento"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@+id/nome"
+                android:layout_marginRight="8dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/nome"
+                app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/nome"
+                android:layout_width="0dp"
+                android:layout_height="27dp"
+                android:layout_above="@+id/data_nascimento"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@+id/imageViewLayout"
+                android:layout_toRightOf="@+id/imageViewLayout"
+                android:layout_weight="0.91"
+                android:minHeight="80dp"
+                android:paddingEnd="0dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="0dp"
+                android:paddingStart="16dp"
+                android:text="nome"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toRightOf="@+id/imageViewLayout"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageViewLayout" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

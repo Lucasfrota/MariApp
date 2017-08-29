@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/filho"
+        android:title="@string/filho"/>
+
+    <item
+        android:id="@+id/neto"
+        android:title="@string/neto"/>
+
+    <item
+        android:id="@+id/bisneto"
+        android:title="@string/bisneto"/>
+
+    <item
+        android:id="@+id/tio"
+        android:title="@string/tio"/>
+
+    <item
+        android:id="@+id/primo"
+        android:title="@string/primo"/>
+
+    <item
+        android:id="@+id/irmao"
+        android:title="@string/irmao"/>
+
+</menu>
