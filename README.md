@@ -25,3 +25,5 @@ Agora temos o servidor ligado, o proximo passo é colocar o endereço do servido
 tendo o app instalado em um celular é necessario selecionar a opção "Configurações" no menu inferior,
 preencher o campo com o endereço do servidor, e apertar o botão "Alterar", o endereço colocado sera
 salvo e nao mudara ate que este processo seja repetido mudando o valor anteriormente colocado
+
+![alt text](https://goo.gl/photos/ckA8FXkNcSECpy3u9)
