@@ -26,4 +26,5 @@ tendo o app instalado em um celular é necessario selecionar a opção "Configur
 preencher o campo com o endereço do servidor, e apertar o botão "Alterar", o endereço colocado sera
 salvo e nao mudara ate que este processo seja repetido mudando o valor anteriormente colocado
 
-![alt text](Screenshot_20170828-224837.png?raw=true)
+![alt text](Screenshot_20170828-224837.png)
+![alt text](Screenshot_20170828-224854.png)
